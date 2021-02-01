@@ -1,0 +1,82 @@
+body {
+  margin-top: 80px;
+  background-color: rgb(0, 0, 0);
+  color:rgb(221, 201, 19);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+h2{
+  margin-left:40px;
+}
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
+
+img{
+  height: 29px;
+  width: 29px;
+}
+
+.bg-modal{
+  height:100%;
+  width: 100%;
+  position: absolute;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.modal-content{
+  position: relative;
+  height: 40%;
+  width: 60%;
+  background-image: url(../imgs/about-pac.jpg);
+  background-position: center;
+  background-color:rgb(135, 206, 250, 0.95);
+  border-radius: 5px;
+  border: rgb(145, 157, 170) 6px ridge;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+button{
+  font-size: larger;
+  margin:10px;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: silver;
+  border: rgb(191, 192, 192) 4px ridge;
+}
+
+p{
+  width: 260px;
+  height: 60px;
+  /* border-radius: 5px;
+  border: ridge 2px white;
+  background-color:rgb(0,0,0,0.7); */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 14px;
+  color: lightyellow;
+}
+
